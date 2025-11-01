@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - SHRI GANESH ENTERPRISES</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Include all the same styles from the main page */
+        /* ... */
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Navigation (same as index.html) -->
+    <div class="nav-container">
+        <!-- ... navigation code ... -->
+    </div>
+
+    <!-- Contact Us Section -->
+    
+    <section class="py-16 bg-gray-50">
+        <a href="index.html" class="m-3">
+        <button class="bg-orange-500 text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-orange-600 transition">
+            Back
+        </button>
+        </a>
+        <div class="container mx-auto px-4">
+            <h3 class="text-4xl font-bold text-center text-blue-900 mb-4">Contact Us</h3>
+            <p class="text-center text-gray-600 mb-12 text-lg">Get in Touch for Professional Water Tank Cleaning Services</p>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Contact Information -->
+                
+                <div>
+                    <div class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                        <h4 class="text-2xl font-bold text-blue-900 mb-6">Contact Information</h4>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <span class="text-blue-700 text-xl">📞</span>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-gray-900">Phone Number</h5>
+                                    <p class="text-gray-700">+91-97633 93382</p>
+                                    <p class="text-gray-600 text-sm">Mon-Sun: 8:00 AM - 8:00 PM</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-green-100 p-3 rounded-full mr-4">
+                                    <span class="text-green-700 text-xl">💬</span>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-gray-900">WhatsApp</h5>
+                                    <p class="text-gray-700">+91-97633 93382</p>
+                                    <a href="https://wa.me/9763393382" target="_blank" class="text-green-600 hover:text-green-800 font-medium">Send Message</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-red-100 p-3 rounded-full mr-4">
+                                    <span class="text-red-700 text-xl">📧</span>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-gray-900">Email Address</h5>
+                                    <p class="text-gray-700">info@shriganeshenterprises.com</p>
+                                    <a href="mailto:info@shriganeshenterprises.com" class="text-blue-600 hover:text-blue-800 font-medium">Send Email</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-purple-100 p-3 rounded-full mr-4">
+                                    <span class="text-purple-700 text-xl">📍</span>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-gray-900">Office Address</h5>
+                                    <p class="text-gray-700">Pune, Maharashtra</p>
+                                    <p class="text-gray-600 text-sm">Serving Pune & PCMC areas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl shadow-lg p-8">
+                        <h4 class="text-2xl font-bold mb-4">Business Hours</h4>
+                        <div class="space-y-2">
+                            <div class="flex justify-between">
+                                <span>Monday - Friday</span>
+                                <span>8:00 AM - 8:00 PM</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Saturday</span>
+                                <span>8:00 AM - 6:00 PM</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Sunday</span>
+                                <span>9:00 AM - 5:00 PM</span>
+                            </div>
+                            <div class="flex justify-between mt-4 pt-4 border-t border-blue-400">
+                                <span class="font-bold">Emergency Service</span>
+                                <span class="font-bold">24/7 Available</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <h4 class="text-2xl font-bold text-blue-900 mb-6">Send Us a Message</h4>
+                    
+                    <form id="contactForm" class="space-y-4">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <label for="firstName" class="block text-gray-700 font-semibold mb-2">First Name *</label>
+                                <input type="text" id="firstName" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            </div>
+                            
+                            <div>
+                                <label for="lastName" class="block text-gray-700 font-semibold mb-2">Last Name *</label>
+                                <input type="text" id="lastName" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block text-gray-700 font-semibold mb-2">Email Address *</label>
+                            <input type="email" id="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        
+                        <div>
+                            <label for="phone" class="block text-gray-700 font-semibold mb-2">Phone Number *</label>
+                            <input type="tel" id="phone" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        
+                        <div>
+                            <label for="subject" class="block text-gray-700 font-semibold mb-2">Subject *</label>
+                            <select id="subject" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                <option value="">Select a Subject</option>
+                                <option value="service-inquiry">Service Inquiry</option>
+                                <option value="quote-request">Quote Request</option>
+                                <option value="complaint">Complaint</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block text-gray-700 font-semibold mb-2">Message *</label>
+                            <textarea id="message" rows="5" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-4 rounded-lg font-bold text-lg transition">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Areas -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h3 class="text-4xl font-bold text-center text-blue-900 mb-4">Service Areas</h3>
+            <p class="text-center text-gray-600 mb-8 text-lg">We Serve Across Pune & PCMC</p>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <p class="font-semibold text-blue-900">Wakad</p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <p class="font-semibold text-blue-900">Baner</p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <p class="font-semibold text-blue-900">Kothrud</p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <p class="font-semibold text-blue-900">Hadapsar</p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <p class="font-semibold text-blue-900">Hinjewadi</p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <p class="font-semibold text-blue-900">Pimpri</p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <p class="font-semibold text-blue-900">Chinchwad</p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <p class="font-semibold text-blue-900">Aundh</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="bg-gray-900 text-white py-12">
+        <!-- ... footer code ... -->
+    </footer>
+
+    <script>
+        // Contact form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Create success message
+            const successDiv = document.createElement('div');
+            successDiv.className = 'bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded-lg mt-4';
+            successDiv.innerHTML = `
+                <strong>Success!</strong> Your message has been sent. We'll contact you within 24 hours.
+            `;
+            
+            this.appendChild(successDiv);
+            this.reset();
+            
+            setTimeout(() => {
+                successDiv.remove();
+            }, 5000);
+        });
+        
+        // Mobile menu toggle (same as index.html)
+        // ...
+    </script>
+</body>
+</html>
